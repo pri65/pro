@@ -32,11 +32,11 @@ let currData = {
  let offPrice=document.createElement("h2")
  offPrice.innerText=currData.offerPrice;
 
- let proName=document.createElement("h2")
- proName.innerText=currData.productName;
+ let acPrice=document.createElement("h2")
+ acPrice.innerText=currData.actualPrice;
 
- let proName=document.createElement("h2")
- proName.innerText=currData.productName;
+ let dis=document.createElement("h2")
+ dis.innerText=currData.discount;
 
  let proName=document.createElement("h2")
  proName.innerText=currData.productName;
