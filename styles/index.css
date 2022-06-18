@@ -50,6 +50,20 @@
     margin-left: 10px;
     width: 50%;
 }
+.prices{
+    display: flex;
+}
+.prices>div{
+    font-size: x-large;
+    margin-left: 20px;
+}
+.prices>div:nth-child(1){
+    font-weight:bolder;
+}
+.prices>div:nth-child(2){
+    font-weight:bolder;
+    margin-left: 0px;
+}
 #productName>button{
     background-color: white;
     text-align: center;

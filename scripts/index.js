@@ -41,18 +41,19 @@ thumb1.setAttribute("src",currData.imageUrl)
  proName.innerText=currData.productName;
 
  let div1=document.createElement("div");
- let curSign=document.createElement("h2")
+ div1.className="prices";
+ let curSign=document.createElement("div")
  curSign.innerText=currData.currencySign;
  
- let offPrice=document.createElement("h2")
+ let offPrice=document.createElement("div")
  offPrice.innerText=currData.offerPrice;
  
- let acPrice=document.createElement("h2")
+ let acPrice=document.createElement("div")
  acPrice.innerText=currData.actualPrice;
  acPrice.className="actual";
 
 
- let dis=document.createElement("h2")
+ let dis=document.createElement("div")
  dis.innerText=currData.discount;
 
  div1.append(curSign,offPrice,acPrice,dis);
