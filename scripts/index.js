@@ -1,4 +1,4 @@
-
+const productImage=document.getElementById("productImage");
 
 
 let currData = {
@@ -16,7 +16,16 @@ let currData = {
     productId: 1234,
     shipto: "Armenia",
   };
+  console.log(currData.imageUrl)
+ const proImg= document.createElement("img");
+ proImg.setAttribute("src",currData.imageUrl)
+ productImage.append(proImg) 
   
+
+ const productName=document.getElementById("productName0")
+ let proName=document.createElement("h2")
+ proName.innerText=currData.productName;
+
   // CurrentData get key=>
   let materSingleData =
     JSON.parse(localStorage.getItem("dataToLocalDetail")) || {}; // object
