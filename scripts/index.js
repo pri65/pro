@@ -28,15 +28,19 @@ let currData = {
  let div1=document.createElement("div");
  let curSign=document.createElement("h2")
  curSign.innerText=currData.currencySign;
+ 
  let offPrice=document.createElement("h2")
  offPrice.innerText=currData.offerPrice;
- div1.append(curSign,offPrice)
-
+ 
  let acPrice=document.createElement("p")
  acPrice.innerText=currData.actualPrice;
+//  acPrice.className="actual";
+//  document.getElementsByClassName("actual").style.textDecoration="line-through";
 
  let dis=document.createElement("h2")
  dis.innerText=currData.discount;
+
+ div1.append(curSign,offPrice,acPrice,dis);
 
  let shipTo=document.createElement("p")
 shipTo.innerText=currData.shipto;
@@ -56,7 +60,7 @@ addToCart.innerText="Add To Cart"
 let buyNow=document.createElement("button")
 buyNow.innerText="Buy Now"
 
-productName.append(proName,div1,acPrice,dis,shipTo,review,free,addToCart,buyNow);
+productName.append(proName,div1,shipTo,review,free,addToCart,buyNow);
 
  
 
