@@ -18,6 +18,9 @@ let currData = {
   };
  const proImg= document.createElement("img");
  proImg.setAttribute("src",currData.imageUrl)
+ let thumbnail=document.createElement("div")
+ let thumb1=document.createElement("div");
+ thumb1.src=currData.imageUrl;
  productImage.append(proImg) 
   
 
