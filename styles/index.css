@@ -26,6 +26,12 @@
     font-size: larger;
     text-align: center;
 }
+.thumb{
+    height: 100px;
+    width: 350px;
+    border: 2px solid black;
+    margin-top: 70px;
+}
 #productInfo{
     height: 600px;
     display: flex;

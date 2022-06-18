@@ -18,7 +18,8 @@ let currData = {
   };
  const proImg= document.createElement("img");
  proImg.setAttribute("src",currData.imageUrl)
-//  let thumbnail=document.createElement("div")
+ let thumbnail=document.createElement("div")
+ thumbnail.className="thumb";
 // let thumb1=document.createElement("div");
 // thumb1.setAttribute("src",currData.imageUrl)
 //  //thumb1.src=currData.imageUrl;
@@ -29,7 +30,7 @@ let currData = {
 //  let thumb4=document.createElement("div");
 //  thumb4.src=currData.imageUrl;
 //  thumbnail.append(thumb1,thumb2,thumb3,thumb4);
- productImage.append(proImg) 
+ productImage.append(proImg,thumbnail) 
   
 
  const productName=document.getElementById("productName")
