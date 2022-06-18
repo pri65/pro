@@ -38,8 +38,20 @@ let currData = {
  let dis=document.createElement("h2")
  dis.innerText=currData.discount;
 
- let proName=document.createElement("h2")
- proName.innerText=currData.productName;
+ let shipTo=document.createElement("h2")
+shipTo.innerText=currData.shipToOmit;
+
+let shipTo=document.createElement("h2")
+shipTo.innerText=currData.shipToOmit;
+
+let shipTo=document.createElement("h2")
+shipTo.innerText=currData.shipToOmit;
+
+let shipTo=document.createElement("h2")
+shipTo.innerText=currData.shipToOmit;
+
+let shipTo=document.createElement("h2")
+shipTo.innerText=currData.shipToOmit;
 
   // CurrentData get key=>
   let materSingleData =
