@@ -28,7 +28,6 @@ let currData = {
  let div1=document.createElement("div");
  let curSign=document.createElement("h2")
  curSign.innerText=currData.currencySign;
-
  let offPrice=document.createElement("h2")
  offPrice.innerText=currData.offerPrice;
  div1.append(curSign,offPrice)
@@ -49,9 +48,6 @@ review.innerText=currData.review_num;
 let free=document.createElement("p")
 free.innerText=currData.freeShip;
 
-let proId=document.createElement("h2")
-proId.innerText=currData.productId;
-
 
 let addToCart=document.createElement("button");
 addToCart.innerText="Add To Cart"
@@ -60,7 +56,7 @@ addToCart.innerText="Add To Cart"
 let buyNow=document.createElement("button")
 buyNow.innerText="Buy Now"
 
-productName.append(proName,div1,acPrice,dis,review,free,proId,addToCart,buyNow);
+productName.append(proName,div1,acPrice,dis,shipTo,review,free,addToCart,buyNow);
 
  
 
