@@ -41,14 +41,14 @@ let currData = {
  let shipTo=document.createElement("h2")
 shipTo.innerText=currData.shipToOmit;
 
-let shipTo=document.createElement("h2")
-shipTo.innerText=currData.shipToOmit;
+let review=document.createElement("h2")
+review.innerText=currData.review_num;
 
-let shipTo=document.createElement("h2")
-shipTo.innerText=currData.shipToOmit;
+let free=document.createElement("h2")
+free.innerText=currData.freeShip;
 
-let shipTo=document.createElement("h2")
-shipTo.innerText=currData.shipToOmit;
+let proId=document.createElement("h2")
+proId.innerText=currData.productId;
 
 let shipTo=document.createElement("h2")
 shipTo.innerText=currData.shipToOmit;
