@@ -36,6 +36,16 @@
     border: 2px solid blue;
     width: 50%;
 }
+#productName>button{
+    background-color: white;
+    text-align: center;
+    color: blue;
+    font-size: x-large;
+    border-color: blue;
+}
+#productName>button:hover{
+    
+}
 #desc{
     width: 70%;
     margin-left: 120px;
