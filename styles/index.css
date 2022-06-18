@@ -42,7 +42,9 @@
 #productInfo{
     height: 600px;
     display: flex;
-    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
 }
 #productInfo>div{
     margin-left: 10px;
