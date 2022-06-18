@@ -52,8 +52,6 @@ free.innerText=currData.freeShip;
 let proId=document.createElement("h2")
 proId.innerText=currData.productId;
 
-// let ship=document.createElement("p")
-// ship.innerText=currData.shipto;
 
 let addToCart=document.createElement("button");
 addToCart.innerText="Add To Cart"
