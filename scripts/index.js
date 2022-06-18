@@ -26,11 +26,11 @@ let currData = {
  let proName=document.createElement("h2")
  proName.innerText=currData.productName;
 
- let proName=document.createElement("h2")
- proName.innerText=currData.productName;
+ let curSign=document.createElement("h2")
+ curSign.innerText=currData.currencySign;
 
- let proName=document.createElement("h2")
- proName.innerText=currData.productName;
+ let offPrice=document.createElement("h2")
+ offPrice.innerText=currData.offerPrice;
 
  let proName=document.createElement("h2")
  proName.innerText=currData.productName;
