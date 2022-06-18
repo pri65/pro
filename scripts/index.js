@@ -1,5 +1,5 @@
 const productImage=document.getElementById("productImage");
-
+//let currData= JSON.parse(localStorage.getItem("singleProductView"))
 
 let currData = {
     productName:
@@ -16,13 +16,12 @@ let currData = {
     productId: 1234,
     shipto: "Armenia",
   };
-  console.log(currData.imageUrl)
  const proImg= document.createElement("img");
  proImg.setAttribute("src",currData.imageUrl)
  productImage.append(proImg) 
   
 
- const productName=document.getElementById("productName0")
+ const productName=document.getElementById("productName")
  let proName=document.createElement("h2")
  proName.innerText=currData.productName;
 
@@ -53,12 +52,15 @@ proId.innerText=currData.productId;
 let ship=document.createElement("h2")
 ship.innerText=currData.shipto;
 
-productName.append(proName,curSign,offPrice,acPrice,dis,shipTo,review,free,proId);
+let addToCart=document.createElement("button");
+addToCart.innerText="Add To Cart"
 
-  // CurrentData get key=>
-  let materSingleData =
-    JSON.parse(localStorage.getItem("dataToLocalDetail")) || {}; // object
-  // CurrentData get key=>
+let buyNow=document.createElement("button")
+buyNow.innerText="Buy Now"
+
+productName.append(proName,curSign,offPrice,acPrice,dis,shipTo,review,free,proId,addToCart,buyNow);
+
+ 
 
   // releated Product
 let releatedSingleDataSet =
