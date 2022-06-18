@@ -32,7 +32,7 @@ let currData = {
  let offPrice=document.createElement("h2")
  offPrice.innerText=currData.offerPrice;
  
- let acPrice=document.createElement("p")
+ let acPrice=document.createElement("h2")
  acPrice.innerText=currData.actualPrice;
 //  acPrice.className="actual";
 //  document.getElementsByClassName("actual").style.textDecoration="line-through";
