@@ -26,6 +26,16 @@
     font-size: larger;
     text-align: center;
 }
+#productInfo{
+    height: 600px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+#productInfo>div{
+    margin-left: 10px;
+    
+}
 #desc{
     width: 70%;
     margin-left: 120px;

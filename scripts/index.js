@@ -22,7 +22,7 @@ let currData = {
   
 
  const productName=document.getElementById("productName")
- let proName=document.createElement("h2")
+ let proName=document.createElement("h3")
  proName.innerText=currData.productName;
 
  let curSign=document.createElement("h2")
@@ -31,29 +31,30 @@ let currData = {
  let offPrice=document.createElement("h2")
  offPrice.innerText=currData.offerPrice;
 
- let acPrice=document.createElement("h2")
+ let acPrice=document.createElement("p")
  acPrice.innerText=currData.actualPrice;
 
  let dis=document.createElement("h2")
  dis.innerText=currData.discount;
 
- let shipTo=document.createElement("h2")
+ let shipTo=document.createElement("p")
 shipTo.innerText=currData.shipToOmit;
 
-let review=document.createElement("h2")
+let review=document.createElement("p")
 review.innerText=currData.review_num;
 
-let free=document.createElement("h2")
+let free=document.createElement("p")
 free.innerText=currData.freeShip;
 
 let proId=document.createElement("h2")
 proId.innerText=currData.productId;
 
-let ship=document.createElement("h2")
+let ship=document.createElement("p")
 ship.innerText=currData.shipto;
 
 let addToCart=document.createElement("button");
 addToCart.innerText="Add To Cart"
+
 
 let buyNow=document.createElement("button")
 buyNow.innerText="Buy Now"
