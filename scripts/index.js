@@ -26,6 +26,21 @@ let currData = {
  let proName=document.createElement("h2")
  proName.innerText=currData.productName;
 
+ let proName=document.createElement("h2")
+ proName.innerText=currData.productName;
+
+ let proName=document.createElement("h2")
+ proName.innerText=currData.productName;
+
+ let proName=document.createElement("h2")
+ proName.innerText=currData.productName;
+
+ let proName=document.createElement("h2")
+ proName.innerText=currData.productName;
+
+ let proName=document.createElement("h2")
+ proName.innerText=currData.productName;
+
   // CurrentData get key=>
   let materSingleData =
     JSON.parse(localStorage.getItem("dataToLocalDetail")) || {}; // object
