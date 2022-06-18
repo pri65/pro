@@ -31,6 +31,13 @@
     width: 350px;
     border: 2px solid black;
     margin-top: 70px;
+    display: flex;
+}
+.thumb>div{
+    height: 100px;
+    width: 80px;
+    margin-left: 10px;
+    border: 1px solid black;
 }
 #productInfo{
     height: 600px;
