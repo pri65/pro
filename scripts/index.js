@@ -1,5 +1,5 @@
 const productImage=document.getElementById("productImage");
-//let currData= JSON.parse(localStorage.getItem("singleProductView"))
+// let currData= JSON.parse(localStorage.getItem("singleProductView"))
 
 let currData = {
     productName:
@@ -25,11 +25,13 @@ let currData = {
  let proName=document.createElement("h3")
  proName.innerText=currData.productName;
 
+ let div1=document.createElement("div");
  let curSign=document.createElement("h2")
  curSign.innerText=currData.currencySign;
 
  let offPrice=document.createElement("h2")
  offPrice.innerText=currData.offerPrice;
+ div1.append(curSign,offPrice)
 
  let acPrice=document.createElement("p")
  acPrice.innerText=currData.actualPrice;
@@ -38,7 +40,7 @@ let currData = {
  dis.innerText=currData.discount;
 
  let shipTo=document.createElement("p")
-shipTo.innerText=currData.shipToOmit;
+shipTo.innerText=currData.shipto;
 shipTo.className="country";
 
 let review=document.createElement("p")
@@ -50,8 +52,8 @@ free.innerText=currData.freeShip;
 let proId=document.createElement("h2")
 proId.innerText=currData.productId;
 
-let ship=document.createElement("p")
-ship.innerText=currData.shipto;
+// let ship=document.createElement("p")
+// ship.innerText=currData.shipto;
 
 let addToCart=document.createElement("button");
 addToCart.innerText="Add To Cart"
@@ -60,7 +62,7 @@ addToCart.innerText="Add To Cart"
 let buyNow=document.createElement("button")
 buyNow.innerText="Buy Now"
 
-productName.append(proName,curSign,offPrice,acPrice,dis,shipTo,review,free,proId,addToCart,buyNow);
+productName.append(proName,div1,acPrice,dis,review,free,proId,addToCart,buyNow);
 
  
 
