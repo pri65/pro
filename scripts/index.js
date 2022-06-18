@@ -50,8 +50,10 @@ free.innerText=currData.freeShip;
 let proId=document.createElement("h2")
 proId.innerText=currData.productId;
 
-let shipTo=document.createElement("h2")
-shipTo.innerText=currData.shipToOmit;
+let ship=document.createElement("h2")
+ship.innerText=currData.shipto;
+
+productName.append(proName,curSign,offPrice,acPrice,dis,shipTo,review,free,proId);
 
   // CurrentData get key=>
   let materSingleData =
