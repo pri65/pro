@@ -39,13 +39,7 @@ height: 800px;
 width: 1000px;
 margin-top: -4px;
 }
-#specBox{
-    margin-left: 120px;
-    border: 1px solid gray;
-    height: 1500px;
-    width: 65%;
-    box-lines: single;
-}
+
 #spaceBox>table{
     border-collapse: collapse;
     font-family: 14px/1.55 verdana,arial,sans-serif;
