@@ -49,10 +49,7 @@
 .actual{
     text-decoration: line-through;
 }
-/* #productName>div1{
-    display: flex;
-    flex-direction: row;
-} */
+
 .country{
     border: 1px solid black;
     width: 200px;

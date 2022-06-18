@@ -35,7 +35,7 @@ let currData = {
  let acPrice=document.createElement("h2")
  acPrice.innerText=currData.actualPrice;
  acPrice.className="actual";
-//  document.getElementsByClassName("actual").style.textDecoration="line-through";
+
 
  let dis=document.createElement("h2")
  dis.innerText=currData.discount;
