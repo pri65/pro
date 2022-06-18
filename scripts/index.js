@@ -21,7 +21,14 @@ let currData = {
  let thumbnail=document.createElement("div")
  let thumb1=document.createElement("div");
  thumb1.src=currData.imageUrl;
- productImage.append(proImg) 
+ let thumb2=document.createElement("div");
+ thumb2.src=currData.imageUrl;
+ let thumb3=document.createElement("div");
+ thumb3.src=currData.imageUrl;
+ let thumb4=document.createElement("div");
+ thumb4.src=currData.imageUrl;
+ thumbnail.append(thumb1,thumb2,thumb3,thumb4);
+ productImage.append(proImg,thumbnail) 
   
 
  const productName=document.getElementById("productName")
