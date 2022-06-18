@@ -46,6 +46,13 @@
     background-color: blue;
     color: white;
 }
+.country{
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size:x-large;
+}
 #desc{
     width: 70%;
     margin-left: 120px;

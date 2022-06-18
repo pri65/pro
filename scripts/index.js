@@ -39,6 +39,7 @@ let currData = {
 
  let shipTo=document.createElement("p")
 shipTo.innerText=currData.shipToOmit;
+shipTo.className="country";
 
 let review=document.createElement("p")
 review.innerText=currData.review_num;
