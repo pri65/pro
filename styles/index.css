@@ -40,13 +40,6 @@ width: 1000px;
 margin-top: -4px;
 }
 
-#spaceBox>table{
-    border-collapse: collapse;
-    font-family: 14px/1.55 verdana,arial,sans-serif;
-    width: 912px;
-    padding: 5px;
-    border: 1px;
-}
 #videos{
 display: flex;
 flex-direction: column;
