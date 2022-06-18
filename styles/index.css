@@ -32,11 +32,12 @@
     margin-top: 70px;
     display: flex;
 }
-.thumb>div{
+.thumb>img{
     height: 100px;
     width: 80px;
-    margin-left: 10px;
+    margin-left:2px;
     border: 1px solid black;
+    
 }
 #productInfo{
     height: 600px;
